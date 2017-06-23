@@ -1,0 +1,429 @@
+// Variables
+// --------------------------
+
+@far-font-size-base:   14px;
+@far-line-height-base: 1;
+
+
+@far-var-book: "\f000";
+
+@far-var-envelope: "\f001";
+
+@far-var-times-circle: "\f002";
+
+@far-var-plus-circle: "\f003";
+
+@far-var-exclamation-triangle: "\f004";
+
+@far-var-pen: "\f005";
+
+@far-var-pen-alt: "\f006";
+
+@far-var-pen-square: "\f007";
+
+@far-var-trash-alt: "\f00a";
+
+@far-var-trash: "\f00b";
+
+@far-var-rocket: "\f00c";
+
+@far-var-trophy-alt: "\f00d";
+
+@far-var-trophy: "\f00e";
+
+@far-var-coffee: "\f00f";
+
+@far-var-paint-brush: "\f010";
+
+@far-var-poo: "\f011";
+
+@far-var-paper-plane: "\f012";
+
+@far-var-smile: "\f013";
+
+@far-var-bomb: "\f014";
+
+@far-var-thumbs-up: "\f015";
+
+@far-var-thumbs-down: "\f016";
+
+@far-var-star-exclamation: "\f018";
+
+@far-var-star: "\f019";
+
+@far-var-camera-retro: "\f01a";
+
+@far-var-camera-alt: "\f01b";
+
+@far-var-camera: "\1F4F7";
+
+@far-var-bullhorn: "\f01d";
+
+@far-var-lock-alt: "\f01e";
+
+@far-var-lock: "\f01f";
+
+@far-var-file-alt: "\f020";
+
+@far-var-file: "\f021";
+
+@far-var-leaf: "\f022";
+
+@far-var-flask: "\f023";
+
+@far-var-comment-alt: "\f024";
+
+@far-var-comment: "\f025";
+
+@far-var-code: "\f026";
+
+@far-var-edit: "\f027";
+
+@far-var-gamepad: "\f028";
+
+@far-var-print: "\f029";
+
+@far-var-bars: "\f02a";
+
+@far-var-home: "\f02b";
+
+@far-var-magic: "\f02c";
+
+@far-var-jack-o-lantern: "\f02d";
+
+@far-var-pencil: "\f02e";
+
+@far-var-pencil-alt: "\f02f";
+
+@far-var-search: "\f030";
+
+@far-var-search-plus: "\f031";
+
+@far-var-search-minus: "\f032";
+
+@far-var-martini-glass: "\f033";
+
+@far-var-music: "\f034";
+
+@far-var-user: "\f035";
+
+@far-var-film: "\f036";
+
+@far-var-th-large: "\f037";
+
+@far-var-th: "\f038";
+
+@far-var-th-list: "\f039";
+
+@far-var-utensils: "\f03a";
+
+@far-var-utensil-fork: "\f03b";
+
+@far-var-utensil-knife: "\f03c";
+
+@far-var-utensil-spoon: "\f03d";
+
+@far-var-utensils-alt: "\f03e";
+
+@far-var-check: "\f03f";
+
+@far-var-check-square: "\f040";
+
+@far-var-check-circle: "\f041";
+
+@far-var-times: "\f042";
+
+@far-var-times-square: "\f043";
+
+@far-var-plus: "\f044";
+
+@far-var-plus-square: "\f045";
+
+@far-var-minus: "\f046";
+
+@far-var-minus-square: "\f047";
+
+@far-var-minus-circle: "\f048";
+
+@far-var-heart: "\f049";
+
+@far-var-diamond: "\f04a";
+
+@far-var-spade: "\f04b";
+
+@far-var-club: "\f04c";
+
+@far-var-square: "\f04d";
+
+@far-var-circle: "\f04e";
+
+@far-var-octagon: "\f04f";
+
+@far-var-hexagon: "\f050";
+
+@far-var-triangle: "\f051";
+
+@far-var-shield: "\f052";
+
+@far-var-badge: "\f053";
+
+@far-var-shield-check: "\f054";
+
+@far-var-badge-check: "\f055";
+
+@far-var-times-octagon: "\f056";
+
+@far-var-times-hexagon: "\f057";
+
+@far-var-plus-octagon: "\f058";
+
+@far-var-plus-hexagon: "\f059";
+
+@far-var-minus-octagon: "\f05a";
+
+@far-var-minus-hexagon: "\f05b";
+
+@far-var-power-off: "\f05c";
+
+@far-var-signal: "\f05d";
+
+@far-var-cog: "\f05e";
+
+@far-var-clock: "\f05f";
+
+@far-var-watch: "\f060";
+
+@far-var-alarm-clock: "\f061";
+
+@far-var-stopwatch: "\f062";
+
+@far-var-road: "\f063";
+
+@far-var-download: "\f064";
+
+@far-var-upload: "\f065";
+
+@far-var-arrow-alt-circle-down: "\f066";
+
+@far-var-arrow-circle-down: "\f067";
+
+@far-var-arrow-alt-square-down: "\f068";
+
+@far-var-arrow-square-down: "\f069";
+
+@far-var-caret-circle-down: "\f06a";
+
+@far-var-caret-square-down: "\f06b";
+
+@far-var-chevron-circle-down: "\f06c";
+
+@far-var-chevron-square-down: "\f06d";
+
+@far-var-arrow-alt-down: "\f06e";
+
+@far-var-arrow-down: "\f06f";
+
+@far-var-caret-down: "\f070";
+
+@far-var-sort: "\f071";
+
+@far-var-sort-up: "\f072";
+
+@far-var-sort-down: "\f073";
+
+@far-var-chevron-down: "\f074";
+
+@far-var-angle-down: "\f075";
+
+@far-var-double-angle-down: "\f076";
+
+@far-var-long-arrow-alt-down: "\f077";
+
+@far-var-long-arrow-down: "\f078";
+
+@far-var-arrow-to-bottom: "\f079";
+
+@far-var-arrow-from-bottom: "\f07a";
+
+@far-var-arrows-v: "\f07b";
+
+@far-var-arrows-alt-v: "\f07c";
+
+@far-var-double-chevron-down: "\f07d";
+
+@far-var-arrow-alt-to-bottom: "\f07e";
+
+@far-var-arrow-alt-from-bottom: "\f07f";
+
+@far-var-arrow-circle-up: "\f080";
+
+@far-var-arrow-circle-right: "\f081";
+
+@far-var-arrow-circle-left: "\f082";
+
+@far-var-arrow-alt-circle-up: "\f083";
+
+@far-var-arrow-alt-circle-right: "\f084";
+
+@far-var-arrow-alt-circle-left: "\f085";
+
+@far-var-arrow-square-up: "\f086";
+
+@far-var-arrow-square-left: "\f087";
+
+@far-var-arrow-square-right: "\f088";
+
+@far-var-arrow-alt-square-up: "\f089";
+
+@far-var-arrow-alt-square-left: "\f08a";
+
+@far-var-arrow-alt-square-right: "\f08b";
+
+@far-var-caret-circle-up: "\f08c";
+
+@far-var-caret-circle-left: "\f08d";
+
+@far-var-caret-circle-right: "\f08e";
+
+@far-var-chevron-circle-up: "\f08f";
+
+@far-var-chevron-circle-left: "\f090";
+
+@far-var-chevron-circle-right: "\f091";
+
+@far-var-caret-square-up: "\f092";
+
+@far-var-caret-square-left: "\f093";
+
+@far-var-caret-square-right: "\f094";
+
+@far-var-chevron-square-up: "\f095";
+
+@far-var-chevron-square-left: "\f096";
+
+@far-var-chevron-square-right: "\f097";
+
+@far-var-arrow-up: "\f098";
+
+@far-var-arrow-left: "\f099";
+
+@far-var-arrow-right: "\f09a";
+
+@far-var-arrow-alt-up: "\f09b";
+
+@far-var-arrow-alt-left: "\f09c";
+
+@far-var-arrow-alt-right: "\f09d";
+
+@far-var-caret-up: "\f09e";
+
+@far-var-caret-left: "\f09f";
+
+@far-var-caret-right: "\f0a0";
+
+@far-var-chevron-up: "\f0a1";
+
+@far-var-chevron-left: "\f0a2";
+
+@far-var-chevron-right: "\f0a3";
+
+@far-var-double-chevron-up: "\f0a4";
+
+@far-var-double-chevron-left: "\f0a5";
+
+@far-var-double-chevron-right: "\f0a6";
+
+@far-var-long-arrow-up: "\f0a7";
+
+@far-var-long-arrow-left: "\f0a8";
+
+@far-var-long-arrow-right: "\f0a9";
+
+@far-var-long-arrow-alt-up: "\f0aa";
+
+@far-var-long-arrow-alt-left: "\f0ab";
+
+@far-var-long-arrow-alt-right: "\f0ac";
+
+@far-var-arrow-to-top: "\f0ad";
+
+@far-var-arrow-to-left: "\f0ae";
+
+@far-var-arrow-to-right: "\f0af";
+
+@far-var-arrow-alt-to-top: "\f0b0";
+
+@far-var-arrow-alt-to-left: "\f0b1";
+
+@far-var-arrow-alt-to-right: "\f0b2";
+
+@far-var-arrow-from-top: "\f0b3";
+
+@far-var-arrow-from-left: "\f0b4";
+
+@far-var-arrow-from-right: "\f0b5";
+
+@far-var-arrow-alt-from-top: "\f0b6";
+
+@far-var-arrow-alt-from-left: "\f0b7";
+
+@far-var-arrow-alt-from-right: "\f0b8";
+
+@far-var-angle-up: "\f0b9";
+
+@far-var-angle-left: "\f0ba";
+
+@far-var-angle-right: "\f0bb";
+
+@far-var-double-angle-up: "\f0bc";
+
+@far-var-double-angle-left: "\f0bd";
+
+@far-var-double-angle-right: "\f0be";
+
+@far-var-arrows-h: "\f0bf";
+
+@far-var-arrows-alt-h: "\f0c0";
+
+@far-var-sticky-note: "\f0c1";
+
+@far-var-inbox: "\f0c2";
+
+@far-var-inbox-in: "\f0c3";
+
+@far-var-inbox-out: "\f0c4";
+
+@far-var-calendar: "\f0c5";
+
+@far-var-calendar-alt: "\f0c6";
+
+@far-var-calendar-exclamation: "\f0c7";
+
+@far-var-calendar-check: "\f0c8";
+
+@far-var-calendar-pen: "\f0c9";
+
+@far-var-calendar-plus: "\f0ca";
+
+@far-var-calendar-times: "\f0cb";
+
+@far-var-calendar-minus: "\f0cc";
+
+@far-var-file-plus: "\f0cd";
+
+@far-var-file-times: "\f0ce";
+
+@far-var-file-minus: "\f0cf";
+
+@far-var-file-exclamation: "\f0d0";
+
+@far-var-file-check: "\f0d1";
+
+@far-var-file-pen: "\f0d2";
+
+@far-var-usd: "\f0d3";
+
+@far-var-usd-circle: "\f0d4";
+
+@far-var-usd-square: "\f0d5";
+

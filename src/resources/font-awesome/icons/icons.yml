@@ -1,0 +1,2200 @@
+alarm-clock:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f000
+angle-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f001
+angle-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f002
+angle-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f003
+angle-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f004
+arrow-alt-circle-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f005
+arrow-alt-circle-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f006
+arrow-alt-circle-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f007
+arrow-alt-circle-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f008
+arrow-alt-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f009
+arrow-alt-from-bottom:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f00a
+arrow-alt-from-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f00b
+arrow-alt-from-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f00c
+arrow-alt-from-top:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f00d
+arrow-alt-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f00e
+arrow-alt-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f00f
+arrow-alt-square-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f010
+arrow-alt-square-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f011
+arrow-alt-square-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f012
+arrow-alt-square-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f013
+arrow-alt-to-bottom:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f014
+arrow-alt-to-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f015
+arrow-alt-to-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f016
+arrow-alt-to-top:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f017
+arrow-alt-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f018
+arrow-circle-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f019
+arrow-circle-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f01a
+arrow-circle-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f01b
+arrow-circle-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f01c
+arrow-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f01d
+arrow-from-bottom:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f01e
+arrow-from-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f01f
+arrow-from-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f020
+arrow-from-top:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f021
+arrow-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f022
+arrow-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f023
+arrow-square-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f024
+arrow-square-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f025
+arrow-square-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f026
+arrow-to-bottom:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f028
+arrow-to-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f029
+arrow-to-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f02a
+arrow-to-top:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f02b
+arrow-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f02c
+arrows-alt-h:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f02d
+arrows-alt-v:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f02e
+arrows-h:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f02f
+arrows-v:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f030
+badge:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f032
+badge-check:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f031
+bars:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f033
+bomb:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f034
+book:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f035
+bullhorn:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f036
+calendar:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f03e
+calendar-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f037
+calendar-check:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f038
+calendar-exclamation:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f039
+calendar-minus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f03a
+calendar-pen:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f03b
+calendar-plus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f03c
+calendar-times:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f03d
+camera:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f041
+camera-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f03f
+camera-retro:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f040
+caret-circle-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f042
+caret-circle-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f043
+caret-circle-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f044
+caret-circle-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f045
+caret-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f046
+caret-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f047
+caret-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f048
+caret-square-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f049
+caret-square-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f04a
+caret-square-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f04b
+caret-square-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f04c
+caret-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f04d
+check:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f051
+check-circle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f04f
+check-square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f050
+chevron-circle-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f052
+chevron-circle-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f053
+chevron-circle-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f054
+chevron-circle-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f055
+chevron-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f056
+chevron-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f057
+chevron-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f058
+chevron-square-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f059
+chevron-square-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f05a
+chevron-square-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f05b
+chevron-square-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f05c
+chevron-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f05d
+circle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f05e
+clock:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f05f
+club:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f060
+code:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f061
+coffee:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f062
+cog:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f063
+comment:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f065
+comment-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f064
+diamond:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f066
+double-angle-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f067
+double-angle-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f068
+double-angle-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f069
+double-angle-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f06a
+double-chevron-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f06b
+double-chevron-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f06c
+double-chevron-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f06d
+double-chevron-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f06e
+download:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f06f
+edit:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f070
+envelope:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f071
+exclamation-triangle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f072
+file:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f07a
+file-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f073
+file-check:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f074
+file-exclamation:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f075
+file-minus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f076
+file-pen:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f077
+file-plus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f078
+file-times:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f079
+film:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f07b
+flask:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f07c
+gamepad:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f07d
+heart:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f07e
+hexagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f07f
+home:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f080
+inbox:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f083
+inbox-in:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f081
+inbox-out:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f082
+jack-o-lantern:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f084
+leaf:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f085
+lock:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f087
+lock-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f086
+long-arrow-alt-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f088
+long-arrow-alt-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f089
+long-arrow-alt-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f08a
+long-arrow-alt-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f08b
+long-arrow-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f08c
+long-arrow-left:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f08d
+long-arrow-right:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f08e
+long-arrow-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f08f
+magic:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f090
+martini-glass:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f091
+minus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f096
+minus-circle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f092
+minus-hexagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f093
+minus-octagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f094
+minus-square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f095
+music:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f097
+octagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f098
+paint-brush:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f099
+paper-plane:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f09a
+pen:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f09d
+pen-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f09b
+pen-square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f09c
+pencil:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f09f
+pencil-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f09e
+plus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a4
+plus-circle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a0
+plus-hexagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a1
+plus-octagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a2
+plus-square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a3
+poo:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a5
+power-off:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a6
+print:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a7
+redo:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a9
+redo-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0a8
+road:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0aa
+rocket:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ab
+search:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ae
+search-minus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ac
+search-plus:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ad
+shield:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b0
+shield-check:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0af
+sign-in:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b2
+sign-in-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b1
+sign-out:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b4
+sign-out-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b3
+signal:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b5
+smile:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b6
+sort:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b9
+sort-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b7
+sort-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0b8
+spade:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ba
+square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0bb
+star:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0bd
+star-exclamation:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0bc
+sticky-note:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0be
+stopwatch:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0bf
+sync:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c1
+sync-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c0
+th:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c4
+th-large:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c2
+th-list:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c3
+thumbs-down:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c5
+thumbs-up:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c6
+times:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0cb
+times-circle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c7
+times-hexagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c8
+times-octagon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0c9
+times-square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ca
+trash:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0cd
+trash-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0cc
+triangle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0ce
+trophy:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d0
+trophy-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0cf
+undo:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d2
+undo-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d1
+upload:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d3
+usd:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d6
+usd-circle:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d4
+usd-square:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d5
+user:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d7
+utensil-fork:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d8
+utensil-knife:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0d9
+utensil-spoon:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0da
+utensils:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0dc
+utensils-alt:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0db
+watch:
+  changes:
+    - 5.0.0
+  search:
+    terms: null
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f0dd

@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script defer src="./light.js"></script>
+    <script defer src="./regular.js"></script>
+    <script defer src="./solid.js"></script>
+    <script defer src="./loader.js"></script>
+
+    <!-- font awesome team specific styling. ignore/replace with your own -->
+    <link rel="stylesheet" href="http://static.fontawesome.com/css/fontawesome-app.css">
+  </head>
+
+  <body class="w-100 min-vh-100 bg-near-white darker-gray sans-serif pa6">
+    <div class="mw9 center overflow-hidden">
+
+      <header class="flex flex-column flex-row-l justify-between items-baseline tc tl-l mb6">
+        <h1 class="mt0 mb4 mb0-l f7 normal">SVG Framework - JavaScript Demo</h1>
+
+        <nav class="w-100 w-auto-l tc tr-l">
+          <a href="https://github.com/FortAwesome/Font-Awesome-Pro/blob/svg-framework/svg-framework/README.md" target="_blank" class="link light-blue underline-hover pa1 mr3">View README</a>
+          <a href="https://github.com/FortAwesome/Font-Awesome-Pro/issues/412" target="_blank" class="link light-blue underline-hover pa1">Submit Feedback</a>
+        </nav>
+      </header>
+
+      <section id="fas" class="mb7 bg-white br2 pa4 shadow-1">
+        <h2 class="sans-serif mt0 mb3 pb3 f4 gray bb bw2 b--near-white">Font Awesome 5 Solid</h2>
+
+        <ul class="list ma0 pa0 flex flex-row flex-wrap black">
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-alarm-clock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-angle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-angle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-angle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-angle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-from-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-from-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-from-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-from-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-to-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-to-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-to-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-to-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-alt-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-from-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-from-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-from-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-from-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-to-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-to-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-to-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-to-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrow-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrows-alt-h"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrows-alt-v"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrows-h"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-arrows-v"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-badge"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-badge-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-bars"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-bomb"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-book"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-bullhorn"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-calendar-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-camera"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-camera-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-camera-retro"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-caret-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-check-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-check-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-chevron-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-clock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-club"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-code"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-coffee"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-cog"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-comment"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-comment-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-diamond"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-angle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-angle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-angle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-angle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-chevron-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-chevron-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-chevron-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-double-chevron-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-download"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-edit"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-envelope"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-exclamation-triangle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-file-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-film"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-flask"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-gamepad"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-heart"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-home"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-inbox"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-inbox-in"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-inbox-out"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-jack-o-lantern"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-leaf"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-lock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-lock-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-alt-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-alt-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-alt-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-alt-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-long-arrow-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-magic"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-martini-glass"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-minus-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-minus-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-minus-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-minus-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-music"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-paint-brush"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-paper-plane"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-pen-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-pen-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-pencil"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-pencil-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-plus-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-plus-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-plus-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-plus-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-poo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-power-off"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-print"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-redo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-redo-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-road"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-rocket"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-search"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-search-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-search-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-shield"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-shield-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sign-in"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sign-in-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sign-out"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sign-out-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-signal"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-smile"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sort"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sort-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sort-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-spade"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-star"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-star-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sticky-note"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-stopwatch"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sync"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-sync-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-th"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-th-large"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-th-list"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-thumbs-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-thumbs-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-times-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-times-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-times-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-times-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-trash"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-trash-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-triangle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-trophy"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-trophy-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-undo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-undo-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-upload"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-usd"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-usd-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-usd-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-user"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-utensil-fork"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-utensil-knife"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-utensil-spoon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-utensils"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-utensils-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fas-watch"></i>
+          </li>
+        </ul>
+      </section>
+
+      <section id="far" class="mb7 bg-white br2 pa4 shadow-1">
+        <h2 class="sans-serif mt0 mb3 pb3 f4 gray bb bw2 b--near-white">Font Awesome 5 Regular</h2>
+
+        <ul class="list ma0 pa0 flex flex-row flex-wrap black">
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-alarm-clock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-angle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-angle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-angle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-angle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-from-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-from-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-from-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-from-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-to-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-to-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-to-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-to-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-alt-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-from-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-from-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-from-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-from-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-to-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-to-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-to-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-to-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrow-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrows-alt-h"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrows-alt-v"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrows-h"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-arrows-v"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-badge"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-badge-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-bars"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-bomb"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-book"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-bullhorn"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-calendar-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-camera"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-camera-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-camera-retro"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-caret-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-check-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-check-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-chevron-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-clock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-club"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-code"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-coffee"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-cog"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-comment"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-comment-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-diamond"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-angle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-angle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-angle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-angle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-chevron-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-chevron-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-chevron-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-double-chevron-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-download"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-edit"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-envelope"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-exclamation-triangle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-file-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-film"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-flask"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-gamepad"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-heart"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-home"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-inbox"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-inbox-in"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-inbox-out"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-jack-o-lantern"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-leaf"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-lock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-lock-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-alt-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-alt-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-alt-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-alt-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-long-arrow-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-magic"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-martini-glass"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-minus-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-minus-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-minus-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-minus-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-music"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-paint-brush"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-paper-plane"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-pen-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-pen-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-pencil"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-pencil-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-plus-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-plus-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-plus-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-plus-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-poo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-power-off"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-print"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-redo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-redo-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-road"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-rocket"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-search"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-search-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-search-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-shield"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-shield-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sign-in"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sign-in-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sign-out"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sign-out-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-signal"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-smile"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sort"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sort-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sort-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-spade"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-star"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-star-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sticky-note"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-stopwatch"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sync"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-sync-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-th"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-th-large"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-th-list"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-thumbs-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-thumbs-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-times-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-times-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-times-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-times-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-trash"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-trash-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-triangle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-trophy"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-trophy-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-undo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-undo-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-upload"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-usd"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-usd-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-usd-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-user"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-utensil-fork"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-utensil-knife"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-utensil-spoon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-utensils"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-utensils-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="far-watch"></i>
+          </li>
+        </ul>
+      </section>
+
+      <section id="fal" class="bg-white br2 pa4 shadow-1">
+        <h2 class="sans-serif mt0 mb3 pb3 f4 gray bb bw2 b--near-white">Font Awesome 5 Light</h2>
+
+        <ul class="list ma0 pa0 flex flex-row flex-wrap black">
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-alarm-clock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-angle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-angle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-angle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-angle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-from-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-from-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-from-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-from-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-to-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-to-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-to-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-to-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-alt-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-from-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-from-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-from-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-from-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-to-bottom"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-to-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-to-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-to-top"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrow-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrows-alt-h"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrows-alt-v"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrows-h"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-arrows-v"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-badge"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-badge-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-bars"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-bomb"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-book"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-bullhorn"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-calendar-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-camera"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-camera-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-camera-retro"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-caret-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-check-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-check-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-circle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-circle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-circle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-circle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-square-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-square-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-square-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-square-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-chevron-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-clock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-club"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-code"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-coffee"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-cog"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-comment"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-comment-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-diamond"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-angle-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-angle-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-angle-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-angle-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-chevron-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-chevron-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-chevron-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-double-chevron-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-download"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-edit"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-envelope"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-exclamation-triangle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-file-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-film"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-flask"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-gamepad"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-heart"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-home"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-inbox"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-inbox-in"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-inbox-out"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-jack-o-lantern"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-leaf"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-lock"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-lock-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-alt-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-alt-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-alt-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-alt-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-left"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-right"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-long-arrow-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-magic"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-martini-glass"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-minus-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-minus-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-minus-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-minus-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-music"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-paint-brush"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-paper-plane"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-pen"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-pen-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-pen-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-pencil"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-pencil-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-plus-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-plus-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-plus-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-plus-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-poo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-power-off"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-print"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-redo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-redo-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-road"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-rocket"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-search"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-search-minus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-search-plus"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-shield"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-shield-check"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sign-in"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sign-in-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sign-out"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sign-out-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-signal"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-smile"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sort"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sort-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sort-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-spade"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-star"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-star-exclamation"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sticky-note"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-stopwatch"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sync"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-sync-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-th"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-th-large"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-th-list"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-thumbs-down"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-thumbs-up"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-times"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-times-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-times-hexagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-times-octagon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-times-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-trash"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-trash-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-triangle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-trophy"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-trophy-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-undo"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-undo-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-upload"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-usd"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-usd-circle"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-usd-square"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-user"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-utensil-fork"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-utensil-knife"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-utensil-spoon"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-utensils"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-utensils-alt"></i>
+          </li>
+          <li class="pa3 ma0 w-10-l w-20-m w-25 tc" style="font-size: 48px;">
+            <i class="fal-watch"></i>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </body>
+</html>

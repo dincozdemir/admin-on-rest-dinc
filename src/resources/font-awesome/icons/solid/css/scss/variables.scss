@@ -1,0 +1,429 @@
+// Variables
+// --------------------------
+
+$fas-font-size-base:   14px !default;
+$fas-line-height-base: 1 !default;
+
+
+$fas-var-jack-o-lantern: "\f004";
+
+$fas-var-envelope: "\2709";
+
+$fas-var-pen-square: "\f013";
+
+$fas-var-utensils-alt: "\f017";
+
+$fas-var-pencil-alt: "\f018";
+
+$fas-var-pen-alt: "\f019";
+
+$fas-var-paint-brush: "\f01a";
+
+$fas-var-paper-plane: "\f01c";
+
+$fas-var-poo: "\f01d";
+
+$fas-var-star-exclamation: "\f01e";
+
+$fas-var-coffee: "\f01f";
+
+$fas-var-trophy: "\f020";
+
+$fas-var-trophy-alt: "\f021";
+
+$fas-var-star: "\f023";
+
+$fas-var-times-circle: "\f024";
+
+$fas-var-smile: "\f025";
+
+$fas-var-magic: "\f026";
+
+$fas-var-camera-retro: "\f028";
+
+$fas-var-pencil: "\f029";
+
+$fas-var-bullhorn: "\f02b";
+
+$fas-var-code: "\f02c";
+
+$fas-var-bomb: "\f02d";
+
+$fas-var-utensils: "\f02e";
+
+$fas-var-utensil-fork: "\f02f";
+
+$fas-var-utensil-knife: "\f030";
+
+$fas-var-utensil-spoon: "\f031";
+
+$fas-var-thumbs-up: "\f032";
+
+$fas-var-lock-alt: "\f033";
+
+$fas-var-edit: "\f034";
+
+$fas-var-book: "\1F4D5";
+
+$fas-var-pen: "\f037";
+
+$fas-var-camera-alt: "\f038";
+
+$fas-var-camera: "\1F4F7";
+
+$fas-var-print: "\f03c";
+
+$fas-var-comment: "\f03d";
+
+$fas-var-comment-alt: "\f03e";
+
+$fas-var-gamepad: "\f03f";
+
+$fas-var-trash: "\f040";
+
+$fas-var-trash-alt: "\f041";
+
+$fas-var-leaf: "\f042";
+
+$fas-var-flask: "\f043";
+
+$fas-var-rocket: "\f044";
+
+$fas-var-lock: "\f045";
+
+$fas-var-home: "\f046";
+
+$fas-var-search: "\f047";
+
+$fas-var-bars: "\f048";
+
+$fas-var-plus-circle: "\f049";
+
+$fas-var-exclamation-triangle: "\f04a";
+
+$fas-var-thumbs-down: "\f04b";
+
+$fas-var-file: "\f04c";
+
+$fas-var-file-alt: "\f04d";
+
+$fas-var-search-plus: "\f04e";
+
+$fas-var-search-minus: "\f04f";
+
+$fas-var-martini-glass: "\f050";
+
+$fas-var-music: "\f051";
+
+$fas-var-user: "\f052";
+
+$fas-var-film: "\f053";
+
+$fas-var-th-large: "\f054";
+
+$fas-var-th: "\f055";
+
+$fas-var-th-list: "\f056";
+
+$fas-var-check: "\f057";
+
+$fas-var-check-square: "\f058";
+
+$fas-var-check-circle: "\f059";
+
+$fas-var-times: "\f05b";
+
+$fas-var-times-square: "\f05c";
+
+$fas-var-plus: "\f05d";
+
+$fas-var-plus-square: "\f05e";
+
+$fas-var-minus: "\f05f";
+
+$fas-var-minus-square: "\f060";
+
+$fas-var-minus-circle: "\f061";
+
+$fas-var-heart: "\f062";
+
+$fas-var-diamond: "\f063";
+
+$fas-var-spade: "\f064";
+
+$fas-var-club: "\f065";
+
+$fas-var-square: "\f066";
+
+$fas-var-circle: "\f067";
+
+$fas-var-octagon: "\f068";
+
+$fas-var-hexagon: "\f069";
+
+$fas-var-triangle: "\f06a";
+
+$fas-var-shield: "\f06b";
+
+$fas-var-badge: "\f06c";
+
+$fas-var-shield-check: "\f06d";
+
+$fas-var-badge-check: "\f06e";
+
+$fas-var-times-octagon: "\f06f";
+
+$fas-var-times-hexagon: "\f070";
+
+$fas-var-plus-octagon: "\f071";
+
+$fas-var-plus-hexagon: "\f072";
+
+$fas-var-minus-octagon: "\f073";
+
+$fas-var-minus-hexagon: "\f074";
+
+$fas-var-power-off: "\f075";
+
+$fas-var-signal: "\f076";
+
+$fas-var-cog: "\f077";
+
+$fas-var-clock: "\f078";
+
+$fas-var-watch: "\f079";
+
+$fas-var-alarm-clock: "\f07a";
+
+$fas-var-stopwatch: "\f07b";
+
+$fas-var-road: "\f07c";
+
+$fas-var-download: "\f07d";
+
+$fas-var-upload: "\f07e";
+
+$fas-var-arrow-alt-circle-down: "\f07f";
+
+$fas-var-arrow-circle-down: "\f080";
+
+$fas-var-arrow-alt-square-down: "\f081";
+
+$fas-var-arrow-square: "\f082";
+
+$fas-var-caret-square-down: "\f083";
+
+$fas-var-caret-circle-down: "\f084";
+
+$fas-var-chevron-square-down: "\f085";
+
+$fas-var-chevron-circle-down: "\f086";
+
+$fas-var-arrow-down: "\f087";
+
+$fas-var-arrow-alt-down: "\f088";
+
+$fas-var-caret-down: "\f089";
+
+$fas-var-sort: "\f08a";
+
+$fas-var-sort-down: "\f08b";
+
+$fas-var-sort-up: "\f08c";
+
+$fas-var-chevron-down: "\f08d";
+
+$fas-var-angle-down: "\f08e";
+
+$fas-var-double-angle-down: "\f08f";
+
+$fas-var-long-arrow-alt-down: "\f090";
+
+$fas-var-long-arrow-down: "\f091";
+
+$fas-var-arrow-to-bottom: "\f092";
+
+$fas-var-arrow-from-bottom: "\f093";
+
+$fas-var-arrows-v: "\f094";
+
+$fas-var-arrows-alt-v: "\f095";
+
+$fas-var-double-chevron-down: "\f096";
+
+$fas-var-arrow-alt-from-bottom: "\f097";
+
+$fas-var-arrow-alt-to-bottom: "\f098";
+
+$fas-var-arrow-circle-up: "\f099";
+
+$fas-var-arrow-circle-right: "\f09a";
+
+$fas-var-arrow-circle-left: "\f09b";
+
+$fas-var-arrow-alt-circle-up: "\f09c";
+
+$fas-var-arrow-alt-circle-right: "\f09d";
+
+$fas-var-arrow-alt-circle-left: "\f09e";
+
+$fas-var-arrow-square-up: "\f09f";
+
+$fas-var-arrow-square-left: "\f0a0";
+
+$fas-var-arrow-square-right: "\f0a1";
+
+$fas-var-arrow-alt-square-up: "\f0a2";
+
+$fas-var-arrow-alt-square-left: "\f0a3";
+
+$fas-var-arrow-alt-square-right: "\f0a4";
+
+$fas-var-caret-circle-up: "\f0a5";
+
+$fas-var-caret-circle-left: "\f0a6";
+
+$fas-var-caret-circle-right: "\f0a7";
+
+$fas-var-chevron-circle-up: "\f0a8";
+
+$fas-var-chevron-circle-left: "\f0a9";
+
+$fas-var-chevron-circle-right: "\f0aa";
+
+$fas-var-caret-square-up: "\f0ab";
+
+$fas-var-caret-square-left: "\f0ac";
+
+$fas-var-caret-square-right: "\f0ad";
+
+$fas-var-chevron-square-up: "\f0ae";
+
+$fas-var-chevron-square-left: "\f0af";
+
+$fas-var-chevron-square-right: "\f0b0";
+
+$fas-var-arrow-up: "\f0b1";
+
+$fas-var-arrow-left: "\f0b2";
+
+$fas-var-arrow-right: "\f0b3";
+
+$fas-var-arrow-alt-up: "\f0b4";
+
+$fas-var-arrow-alt-left: "\f0b5";
+
+$fas-var-arrow-alt-right: "\f0b6";
+
+$fas-var-caret-up: "\f0b7";
+
+$fas-var-caret-left: "\f0b8";
+
+$fas-var-caret-right: "\f0b9";
+
+$fas-var-chevron-up: "\f0ba";
+
+$fas-var-chevron-left: "\f0bb";
+
+$fas-var-chevron-right: "\f0bc";
+
+$fas-var-double-chevron-up: "\f0bd";
+
+$fas-var-double-chevron-left: "\f0be";
+
+$fas-var-double-chevron-right: "\f0bf";
+
+$fas-var-long-arrow-up: "\f0c0";
+
+$fas-var-long-arrow-left: "\f0c1";
+
+$fas-var-long-arrow-right: "\f0c2";
+
+$fas-var-long-arrow-alt-up: "\f0c3";
+
+$fas-var-long-arrow-alt-left: "\f0c4";
+
+$fas-var-long-arrow-alt-right: "\f0c5";
+
+$fas-var-arrow-to-top: "\f0c6";
+
+$fas-var-arrow-to-left: "\f0c7";
+
+$fas-var-arrow-to-right: "\f0c8";
+
+$fas-var-arrow-alt-to-top: "\f0c9";
+
+$fas-var-arrow-alt-to-left: "\f0ca";
+
+$fas-var-arrow-alt-to-right: "\f0cb";
+
+$fas-var-arrow-from-top: "\f0cc";
+
+$fas-var-arrow-from-left: "\f0cd";
+
+$fas-var-arrow-from-right: "\f0ce";
+
+$fas-var-arrow-alt-from-top: "\f0cf";
+
+$fas-var-arrow-alt-from-left: "\f0d0";
+
+$fas-var-arrow-alt-from-right: "\f0d1";
+
+$fas-var-angle-up: "\f0d2";
+
+$fas-var-angle-left: "\f0d3";
+
+$fas-var-angle-right: "\f0d4";
+
+$fas-var-double-angle-up: "\f0d5";
+
+$fas-var-double-angle-left: "\f0d6";
+
+$fas-var-double-angle-right: "\f0d7";
+
+$fas-var-arrows-h: "\f0d8";
+
+$fas-var-arrows-alt-h: "\f0d9";
+
+$fas-var-sticky-note: "\f0da";
+
+$fas-var-inbox: "\f0db";
+
+$fas-var-inbox-in: "\f0dc";
+
+$fas-var-inbox-out: "\f0dd";
+
+$fas-var-calendar: "\f0de";
+
+$fas-var-calendar-alt: "\f0df";
+
+$fas-var-calendar-plus: "\f0e0";
+
+$fas-var-calendar-times: "\f0e1";
+
+$fas-var-calendar-minus: "\f0e2";
+
+$fas-var-calendar-exclamation: "\f0e3";
+
+$fas-var-calendar-check: "\f0e4";
+
+$fas-var-calendar-pen: "\f0e5";
+
+$fas-var-file-plus: "\f0e6";
+
+$fas-var-file-times: "\f0e7";
+
+$fas-var-file-minus: "\f0e8";
+
+$fas-var-file-exclamation: "\f0e9";
+
+$fas-var-file-check: "\f0ea";
+
+$fas-var-file-pen: "\f0eb";
+
+$fas-var-usd: "\f0ec";
+
+$fas-var-usd-circle: "\f0ed";
+
+$fas-var-usd-square: "\f0ee";
+
